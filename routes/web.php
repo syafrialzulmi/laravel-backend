@@ -25,6 +25,7 @@ Route::middleware(['auth'])->group(function(){
     })->name('home');
 
     Route::resource('user', UserController::class);
+    Route::get('user/delete/{id}', [UserController::class, 'delete'])->name('delete');
 });
 
 // Route::get('/login', function () {
