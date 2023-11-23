@@ -45,6 +45,7 @@ class UserController extends Controller
 
     public function update(UpdateUserRequest $request, User $user)
     {
+        dd($user);
         $data = $request->validated();
         $user->update($data);
         return redirect()->route('user.index')->with('success', 'User successfully updated');
@@ -55,7 +56,6 @@ class UserController extends Controller
         $user = User::find($id);
         return view('pages.user.delete', compact('user'));
     }
-
 
     public function destroy(User $user)
     {

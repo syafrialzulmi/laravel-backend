@@ -14,7 +14,11 @@
             </li>
             <li class="nav-item dropdown">
                 <a href="{{route('user.index')}}"
-                    class="nav-link"><i class="fas fa-person"></i><span>All User</span></a>
+                    class="nav-link"><i class="fas fa-person"></i><span>All Users</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="{{route('question.index')}}"
+                    class="nav-link"><i class="fas fa-question"></i><span>All Questions</span></a>
             </li>
         </ul>
     </aside>

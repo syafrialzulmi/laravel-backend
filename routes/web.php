@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\QuestionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,7 +26,10 @@ Route::middleware(['auth'])->group(function(){
     })->name('home');
 
     Route::resource('user', UserController::class);
-    Route::get('user/delete/{id}', [UserController::class, 'delete'])->name('delete');
+    Route::get('user/delete/{id}', [UserController::class, 'delete'])->name('userdelete');
+
+    Route::resource('question', QuestionController::class);
+    Route::get('question/delete/{id}', [QuestionController::class, 'delete'])->name('questiondelete');
 });
 
 // Route::get('/login', function () {
