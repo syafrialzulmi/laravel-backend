@@ -17,7 +17,7 @@ class AuthController extends Controller
             'name' => 'required|max:100|min:3',
             'email' => 'required|email|unique:users,email',
             'phone' => 'required|numeric',
-            'roles' => 'required|in:USER',
+            // 'roles' => 'required|in:USER',
             'password' => 'required|min:8',
         ]);
 
@@ -29,7 +29,7 @@ class AuthController extends Controller
             'password' => Hash::make($validatedData['password']),
         ]);
 
-        $token = $user->createToken('auth_token')->plainTextToken();
+        $token = $user->createToken('auth_token')->plainTextToken;
 
         return response()->json([
             'access_token' =>$token,
@@ -44,7 +44,7 @@ class AuthController extends Controller
             'password' => 'required',
         ]);
 
-        $user = User::where('email', $validatedData['email'])->first;
+        $user = User::where('email', $validatedData['email'])->first();
 
         if (!$user) {
             return response()->json([
@@ -58,7 +58,7 @@ class AuthController extends Controller
             ], 401);
         }
 
-        $token = $user->createToken('auth_token')->plainTextToken();
+        $token = $user->createToken('auth_token')->plainTextToken;
 
         return response()->json([
             'access_token' =>$token,

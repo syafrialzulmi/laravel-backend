@@ -3,6 +3,9 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\ExamController;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -22,3 +25,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanctum');
+
+Route::post('/create-ujian', [ExamController::class, 'createUjian'])->middleware('auth:sanctum');
+Route::post('/get-soal-ujian', [ExamController::class, 'getListSoalByKategori'])->middleware('auth:sanctum');
+Route::post('/answers', [ExamController::class, 'jawabSoal'])->middleware('auth:sanctum');
