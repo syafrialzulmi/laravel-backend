@@ -16,8 +16,8 @@ class UserSeeder extends Seeder
         \App\Models\User::factory(10)->create();
 
         \App\Models\User::create([
-            'name' => 'Admin CBT',
-            'email' => 'admin@cbt.id',
+            'name' => 'Admin Backend',
+            'email' => 'admin@backend.id',
             'password' => Hash::make('password'),
             'roles' => 'ADMIN',
             'phone' => '081234567890',
@@ -25,7 +25,7 @@ class UserSeeder extends Seeder
 
         \App\Models\User::create([
             'name' => 'Staf 1',
-            'email' => 'staf1@cbt.id',
+            'email' => 'staf1@backend.id',
             'password' => Hash::make('password'),
             'roles' => 'STAFF',
             'phone' => '081234567890',
@@ -33,7 +33,7 @@ class UserSeeder extends Seeder
 
         \App\Models\User::create([
             'name' => 'Staf 2',
-            'email' => 'staf2@cbt.id',
+            'email' => 'staf2@backend.id',
             'password' => Hash::make('12345678'),
             'roles' => 'STAFF',
             'phone' => '081234567890',
