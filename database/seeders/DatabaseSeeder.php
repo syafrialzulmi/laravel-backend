@@ -23,6 +23,8 @@ class DatabaseSeeder extends Seeder
             QuestionSeeder::class,
             ExamSeeder::class,
             ExamQuestionsListSeeder::class,
+            ContentSeeder::class,
+            MateriSeeder::class,
         ]);
     }
 }
