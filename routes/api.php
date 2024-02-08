@@ -29,7 +29,7 @@ Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanc
 Route::post('/create-ujian', [ExamController::class, 'createUjian'])->middleware('auth:sanctum');
 Route::post('/get-soal-ujian', [ExamController::class, 'getListSoalByKategori'])->middleware('auth:sanctum');
 Route::post('/answers', [ExamController::class, 'jawabSoal'])->middleware('auth:sanctum');
-
+Route::get('/get-nilai', [ExamController::class, 'hitungNilaiUjianByKategori'])->middleware('auth:sanctum');
 
 //api content
 Route::apiResource('contents', \App\Http\Controllers\Api\ContentController::class)->middleware('auth:sanctum');

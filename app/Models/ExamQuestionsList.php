@@ -14,4 +14,12 @@ class ExamQuestionsList extends Model
         'question_id',
         'kebenaran',
     ];
+
+    public function exam() {
+        return $this->belongsTo(Exam::class);
+    }
+
+    public function question() {
+        return $this->belongsTo(Question::class);
+    }
 }
