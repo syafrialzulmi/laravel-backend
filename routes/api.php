@@ -27,7 +27,7 @@ Route::post('/login', [AuthController::class, 'login']);
 Route::post('/logout', [AuthController::class, 'logout'])->middleware('auth:sanctum');
 
 Route::post('/create-ujian', [ExamController::class, 'createUjian'])->middleware('auth:sanctum');
-Route::post('/get-soal-ujian', [ExamController::class, 'getListSoalByKategori'])->middleware('auth:sanctum');
+Route::get('/get-soal-ujian', [ExamController::class, 'getListSoalByKategori'])->middleware('auth:sanctum');
 Route::post('/answers', [ExamController::class, 'jawabSoal'])->middleware('auth:sanctum');
 Route::get('/get-nilai', [ExamController::class, 'hitungNilaiUjianByKategori'])->middleware('auth:sanctum');
 
