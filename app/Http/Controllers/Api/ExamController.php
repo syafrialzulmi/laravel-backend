@@ -113,6 +113,12 @@ class ExamController extends Controller
         ]);
 
         $ujian = Exam::where('user_id', $request->user()->id)->first();
+        if (!$ujian) {
+            return response()->json([
+                'message' => 'Ujian tidak ditemukan',
+                'jawaban' =>  [],
+            ], 404); 
+        }
         $ujianSoalList = ExamQuestionsList::where('exam_id', $ujian->id)->where('question_id', $validateDate['soal_id'])->first();
         $soal = Question::where('id', $validateDate['soal_id'])->first();
 
