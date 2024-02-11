@@ -88,7 +88,7 @@ class ExamController extends Controller
         return response()->json([
             'message' => 'The test was created successfully',
             'data' => $ujian,
-        ]);
+        ], 200);
     }
 
     public function getListSoalByKategori(Request $request)
@@ -102,7 +102,7 @@ class ExamController extends Controller
         return response()->json([
             'message' => 'Successfully got the question',
             'data' => QuestionResource::collection($soal),
-        ]);
+        ], 200);
     }
 
     public function jawabSoal(Request $request)
@@ -129,7 +129,7 @@ class ExamController extends Controller
         return response()->json([
             'message' => 'Successfully saved answer',
             'jawaban' => $ujianSoalList->kebenaran,
-        ]);
+        ], 200);
     }
 
     public function hitungNilaiUjianByKategori(Request $request) {
