@@ -142,12 +142,12 @@ class ExamController extends Controller
         $kategori = $request->kategori;
         $ujian = Exam::where('user_id', $request->user()->id)->first();
 
-        // if ($ujian) {
-            //     return response()->json([
-                //         'message' => 'Ujian tidak ditemukan',
-                //         'data' => [],
-                //     ], 200);
-                // }
+        if (!$ujian) {
+            return response()->json([
+                'message' => 'Ujian tidak ditemukan',
+                'jawaban' =>  [],
+            ], 200); 
+        }
                 
         $ujianSoalList = ExamQuestionsList::where('exam_id', $ujian->id)->get();
         $ujianSoalList = $ujianSoalList->filter(function($value, $key) use ($kategori) {
