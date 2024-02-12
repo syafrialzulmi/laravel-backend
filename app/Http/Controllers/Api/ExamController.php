@@ -97,7 +97,7 @@ class ExamController extends Controller
         if (!$ujian) {
             return response()->json([
                 'message' => 'Ujian tidak ditemukan',
-                'jawaban' =>  [],
+                'data' => [],
             ], 200); 
         }
         $ujianSoalList = ExamQuestionsList::where('exam_id', $ujian->id)->get();
@@ -119,6 +119,12 @@ class ExamController extends Controller
         ]);
 
         $ujian = Exam::where('user_id', $request->user()->id)->first();
+        if (!$ujian) {
+            return response()->json([
+                'message' => 'Ujian tidak ditemukan',
+                'data' => [],
+            ], 200);
+        }
         $ujianSoalList = ExamQuestionsList::where('exam_id', $ujian->id)->where('question_id', $validateDate['soal_id'])->first();
         $soal = Question::where('id', $validateDate['soal_id'])->first();
 
@@ -145,7 +151,7 @@ class ExamController extends Controller
         if (!$ujian) {
             return response()->json([
                 'message' => 'Ujian tidak ditemukan',
-                'jawaban' =>  [],
+                'data' => [],
             ], 200); 
         }
                 
