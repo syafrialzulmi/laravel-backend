@@ -104,7 +104,13 @@ class ExamController extends Controller
         $soalIds = $ujianSoalList->pluck('question_id');
 
         $soal = Question::whereIn('id', $soalIds)->where('kategori', $request->kategori)->get();
-
+        // timer by kategori
+        $timer = $ujian->timer_angka;
+        if ($request->kategori == 'Verbal') {
+            $timer = $ujian->timer_verbal;
+        } else if ($request->kategori == 'Logika') {
+            $timer = $ujian->timer_logika;
+         }
         return response()->json([
             'message' => 'Successfully got the question',
             'data' => QuestionResource::collection($soal),
