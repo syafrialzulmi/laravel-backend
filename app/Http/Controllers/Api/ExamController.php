@@ -113,6 +113,7 @@ class ExamController extends Controller
          }
         return response()->json([
             'message' => 'Successfully got the question',
+            'timer' => $timer,
             'data' => QuestionResource::collection($soal),
         ], 200);
     }
