@@ -14,14 +14,20 @@ class UserController extends Controller
 {
     public function index(Request $request)
     {
-        // $users = User::orderBy('created_at', 'desc')->paginate(10);
+        // $users = User;
+        $count = DB::table('users')->count();
+        $countroles = DB::table('users')
+            ->select('roles', DB::raw('count(*) as total'))
+            ->groupBy('roles')
+            ->get();
+
         $users = DB::table('users')
             ->when($request->input('name'), function($query, $name) {
                 return $query->where('name', 'like', '%' .$name. '%');
             })
             ->orderBy('created_at', 'desc')
             ->paginate(10);
-        return view('pages.user.index', compact('users'));
+        return view('pages.user.index', compact('users','count','countroles'));
     }
 
     public function create()

@@ -14,14 +14,14 @@
     <div class="main-content">
         <section class="section">
             <div class="section-header">
-                <h1>All Users</h1>
+                <h1>Users</h1>
                 <div class="section-header-button">
                     <a href="{{route('user.create')}}"
                         class="btn btn-primary">Add New</a>
                 </div>
                 <div class="section-header-breadcrumb">
-                    <div class="breadcrumb-item active"><a href="{{route('home')}}">Dashboard</a></div>
-                    <div class="breadcrumb-item">All Users</div>
+                    <div class="breadcrumb-item active"><a href="{{route('home.index')}}">Dashboard</a></div>
+                    <div class="breadcrumb-item">Users</div>
                 </div>
             </div>
 
@@ -39,20 +39,14 @@
                                 <ul class="nav nav-pills">
                                     <li class="nav-item">
                                         <a class="nav-link active"
-                                            href="#">All <span class="badge badge-white">5</span></a>
+                                            href="#">All <span class="badge badge-white">{{$count}}</span></a>
                                     </li>
+                                    @foreach ($countroles as $data)
                                     <li class="nav-item">
                                         <a class="nav-link"
-                                            href="#">Draft <span class="badge badge-primary">1</span></a>
+                                            href="#">{{$data->roles}} <span class="badge badge-primary">{{$data->total}}</span></a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="#">Pending <span class="badge badge-primary">1</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link"
-                                            href="#">Trash <span class="badge badge-primary">0</span></a>
-                                    </li>
+                                    @endforeach
                                 </ul>
                             </div>
                         </div>

@@ -13,14 +13,18 @@ class QuestionController extends Controller
 {
     public function index(Request $request)
     {
-        // $users = User::orderBy('created_at', 'desc')->paginate(10);
+        $count = DB::table('questions')->count();
+        $countkategori = DB::table('questions')
+            ->select('kategori', DB::raw('count(*) as total'))
+            ->groupBy('kategori')
+            ->get();
         $questions = DB::table('questions')
             ->when($request->input('pertanyaan'), function($query, $pertanyaan) {
                 return $query->where('pertanyaan', 'like', '%' .$pertanyaan. '%');
             })
             ->orderBy('created_at', 'desc')
             ->paginate(10);
-        return view('pages.question.index', compact('questions'));
+        return view('pages.question.index', compact('questions','count','countkategori'));
     }
 
     public function create()

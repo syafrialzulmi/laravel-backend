@@ -25,7 +25,7 @@
                 <h1>Create a New User</h1>
                 <div class="section-header-breadcrumb">
                     <div class="breadcrumb-item active"><a href="{{route('home')}}">Dashboard</a></div>
-                    <div class="breadcrumb-item"><a href="{{route('user.index')}}">All Users</a></div>
+                    <div class="breadcrumb-item"><a href="{{route('user.index')}}">Users</a></div>
                     <div class="breadcrumb-item">Create a New User</div>
                 </div>
             </div>

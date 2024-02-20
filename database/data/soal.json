@@ -1,0 +1,272 @@
+[
+    {
+        "pertanyaan" : "Pilihlah sinonim yang paling tepat untuk kata munafik",
+        "kategori" : "Verbal",
+        "jawaban_a" : "licik",
+        "jawaban_b" : "jujur",
+        "jawaban_c" : "tulus",
+        "jawaban_d" : "hipokrit",
+        "kunci" : "d"
+    },
+    {
+        "pertanyaan" : "Manakah dari pilihan di bawah ini yang merupakan sinonim dari kata berdusta",
+        "kategori" : "Verbal",
+        "jawaban_a" : "berbohong",
+        "jawaban_b" : "berkata jujur",
+        "jawaban_c" : "menyembunyikan",
+        "jawaban_d" : "mengakui kesalahan",
+        "kunci" : "a"
+    },
+    {
+        "pertanyaan" : "Pilihlah antonim yang paling tepat untuk kata murah hati",
+        "kategori" : "Verbal",
+        "jawaban_a" : "kikir",
+        "jawaban_b" : "dermawan",
+        "jawaban_c" : "pelit",
+        "jawaban_d" : "cinta kasih",
+        "kunci" : "c"
+    },
+    {
+        "pertanyaan" : "Manakah dari berikut ini yang merupakan sinonim dari kata gugup",
+        "kategori" : "Verbal",
+        "jawaban_a" : "tenang",
+        "jawaban_b" : "cemas",
+        "jawaban_c" : "santai",
+        "jawaban_d" : "percaya diri",
+        "kunci" : "b"
+    },
+    {
+        "pertanyaan" : "Pilihlah sinonim yang paling tepat untuk kata mengabaikan",
+        "kategori" : "Verbal",
+        "jawaban_a" : "memperhatikan",
+        "jawaban_b" : "menghiraukan",
+        "jawaban_c" : "peduli",
+        "jawaban_d" : "mengingatkan",
+        "kunci" : "b"
+    },
+    {
+        "pertanyaan" : "Antonim yang paling tepat untuk kata menyedihkan adalah",
+        "kategori" : "Verbal",
+        "jawaban_a" : "gembira",
+        "jawaban_b" : "sedih",
+        "jawaban_c" : "bahagia",
+        "jawaban_d" : "depresi",
+        "kunci" : "a"
+    },
+    {
+        "pertanyaan" : "Pilihlah kata yang paling tepat untuk melengkapi kalimat berikut: Dia sangat berbakat dalam ________ seni lukis.",
+        "kategori" : "Verbal",
+        "jawaban_a" : "menghasilkan",
+        "jawaban_b" : "menghargai",
+        "jawaban_c" : "mengembangkan",
+        "jawaban_d" : "menikmati",
+        "kunci" : "c"
+    },
+    {
+        "pertanyaan" : "Manakah dari berikut ini yang merupakan sinonim dari kata perhatian?",
+        "kategori" : "Verbal",
+        "jawaban_a" : "acuh",
+        "jawaban_b" : "sembrono",
+        "jawaban_c" : "peduli",
+        "jawaban_d" : "cuek",
+        "kunci" : "c"
+    },
+    {
+        "pertanyaan" : "Pilihlah antonim yang paling tepat untuk kata berani",
+        "kategori" : "Verbal",
+        "jawaban_a" : "pengecut",
+        "jawaban_b" : "pemberani",
+        "jawaban_c" : "lemah",
+        "jawaban_d" : "penakut",
+        "kunci" : "a"
+    }
+    ,
+    {
+        "pertanyaan" : "Sinonim yang paling tepat untuk kata pengeluaran adalah",
+        "kategori" : "Verbal",
+        "jawaban_a" : "pemasukan",
+        "jawaban_b" : "pembelian",
+        "jawaban_c" : "pengelolaan",
+        "jawaban_d" : "pengeluaran",
+        "kunci" : "d"
+    },
+    {
+        "pertanyaan": "Berapakah hasil dari 8 + 3 x 4?",
+        "kategori": "Angka",
+        "jawaban_a": "14",
+        "jawaban_b": "20",
+        "jawaban_c": "32",
+        "jawaban_d": "38",
+        "kunci": "c"
+    },
+    {
+        "pertanyaan": "Jika sebuah segitiga memiliki panjang sisi-sisi 6 cm, 8 cm, dan 10 cm, berapakah kelilingnya?",
+        "kategori": "Angka",
+        "jawaban_a": "18 cm",
+        "jawaban_b": "24 cm",
+        "jawaban_c": "28 cm",
+        "jawaban_d": "30 cm",
+        "kunci": "d"
+    },
+    {
+        "pertanyaan": "Jika suatu lingkaran memiliki jari-jari sepanjang 7 cm, berapakah luasnya?",
+        "kategori": "Angka",
+        "jawaban_a": "49π cm^2",
+        "jawaban_b": "98π cm^2",
+        "jawaban_c": "154π cm^2",
+        "jawaban_d": "196π cm^2",
+        "kunci": "a"
+    },
+    {
+        "pertanyaan": "Jika harga sebuah buku adalah $25 dan dijual dengan diskon 15%, berapakah harga akhir buku tersebut?",
+        "kategori": "Angka",
+        "jawaban_a": "$18.75",
+        "jawaban_b": "$21.25",
+        "jawaban_c": "$23.75",
+        "jawaban_d": "$26.25",
+        "kunci": "b"
+    },
+    {
+        "pertanyaan": "Jika suatu persegi memiliki panjang sisi 12 cm, berapakah luasnya?",
+        "kategori": "Angka",
+        "jawaban_a": "48 cm^2",
+        "jawaban_b": "72 cm^2",
+        "jawaban_c": "96 cm^2",
+        "jawaban_d": "144 cm^2",
+        "kunci": "d"
+    },
+    {
+        "pertanyaan": "Berapakah hasil dari 15 - (8 + 2)?",
+        "kategori": "Angka",
+        "jawaban_a": "3",
+        "jawaban_b": "5",
+        "jawaban_c": "7",
+        "jawaban_d": "9",
+        "kunci": "b"
+    },
+    {
+        "pertanyaan": "Jika suatu segitiga sama sisi memiliki panjang sisi 9 cm, berapakah luasnya?",
+        "kategori": "Angka",
+        "jawaban_a": "27√3 cm^2",
+        "jawaban_b": "36√3 cm^2",
+        "jawaban_c": "45√3 cm^2",
+        "jawaban_d": "54√3 cm^2",
+        "kunci": "a"
+    },
+    {
+        "pertanyaan": "Jika suatu persegi panjang memiliki panjang 10 cm dan lebar 5 cm, berapakah kelilingnya?",
+        "kategori": "Angka",
+        "jawaban_a": "20 cm",
+        "jawaban_b": "30 cm",
+        "jawaban_c": "40 cm",
+        "jawaban_d": "50 cm",
+        "kunci": "b"
+    },
+    {
+        "pertanyaan": "Jika sebuah bus memiliki 40 penumpang dan setiap penumpang membayar $3, berapakah total pendapatan dari penumpang?",
+        "kategori": "Angka",
+        "jawaban_a": "$80",
+        "jawaban_b": "$120",
+        "jawaban_c": "$160",
+        "jawaban_d": "$200",
+        "kunci": "d"
+    },
+    {
+        "pertanyaan": "Jika suatu trapesium memiliki panjang sisi-sisi sebesar 4 cm, 6 cm, 8 cm, dan 10 cm, berapakah kelilingnya?",
+        "kategori": "Angka",
+        "jawaban_a": "28 cm",
+        "jawaban_b": "32 cm",
+        "jawaban_c": "36 cm",
+        "jawaban_d": "40 cm",
+        "kunci": "c"
+    },{
+        "pertanyaan": "Jika semua kucing adalah hewan, dan Tom adalah kucing, maka kesimpulan yang benar adalah:",
+        "kategori": "Logika",
+        "jawaban_a": "Tom adalah hewan.",
+        "jawaban_b": "Tom bukan hewan.",
+        "jawaban_c": "Semua hewan adalah kucing.",
+        "jawaban_d": "Semua hewan adalah Tom.",
+        "kunci": "a"
+    },
+    {
+        "pertanyaan": "Jika semua buku di rak adalah novel, dan beberapa buku di rak adalah novel klasik, maka kesimpulan yang benar adalah:",
+        "kategori": "Logika",
+        "jawaban_a": "Semua novel adalah buku.",
+        "jawaban_b": "Semua buku adalah novel klasik.",
+        "jawaban_c": "Semua novel klasik adalah buku.",
+        "jawaban_d": "Beberapa buku di rak adalah novel klasik.",
+        "kunci": "d"
+    },
+    {
+        "pertanyaan": "Jika A adalah B, dan B adalah C, maka kesimpulan yang benar adalah:",
+        "kategori": "Logika",
+        "jawaban_a": "A adalah C.",
+        "jawaban_b": "C adalah A.",
+        "jawaban_c": "A tidak bisa disimpulkan dari informasi yang diberikan.",
+        "jawaban_d": "Semua di atas benar.",
+        "kunci": "a"
+    },
+    {
+        "pertanyaan": "Jika semua siswa di kelas 10B memiliki nilai rata-rata di atas 80, dan John adalah siswa di kelas 10B, maka kesimpulan yang benar adalah:",
+        "kategori": "Logika",
+        "jawaban_a": "John memiliki nilai di bawah 80.",
+        "jawaban_b": "John memiliki nilai di atas 80.",
+        "jawaban_c": "Semua siswa di kelas 10B memiliki nilai di atas 80.",
+        "jawaban_d": "John adalah siswa terbaik di kelas 10B.",
+        "kunci": "b"
+    },
+    {
+        "pertanyaan": "Jika semua pohon adalah tumbuhan, dan beberapa tumbuhan adalah bunga, maka kesimpulan yang benar adalah:",
+        "kategori": "Logika",
+        "jawaban_a": "Semua bunga adalah pohon.",
+        "jawaban_b": "Semua bunga adalah tumbuhan.",
+        "jawaban_c": "Semua pohon adalah bunga.",
+        "jawaban_d": "Beberapa pohon adalah bunga.",
+        "kunci": "d"
+    },
+    {
+        "pertanyaan": "Jika semua segitiga memiliki tiga sisi, dan bentuk A memiliki tiga sisi, maka kesimpulan yang benar adalah:",
+        "kategori": "Logika",
+        "jawaban_a": "Bentuk A adalah segitiga.",
+        "jawaban_b": "Bentuk A tidak memiliki tiga sisi.",
+        "jawaban_c": "Semua bentuk memiliki tiga sisi.",
+        "jawaban_d": "Bentuk A memiliki tiga sisi.",
+        "kunci": "a"
+    },
+    {
+        "pertanyaan": "Jika semua anjing menggonggong, dan Fido adalah anjing, maka kesimpulan yang benar adalah:",
+        "kategori": "Logika",
+        "jawaban_a": "Semua hewan menggonggong.",
+        "jawaban_b": "Fido menggonggong.",
+        "jawaban_c": "Tidak semua anjing menggonggong.",
+        "jawaban_d": "Semua di atas benar.",
+        "kunci": "b"
+    },
+    {
+        "pertanyaan": "Jika semua orang yang bermain olahraga adalah sehat, dan Sarah bermain olahraga, maka kesimpulan yang benar adalah:",
+        "kategori": "Logika",
+        "jawaban_a": "Sarah sehat.",
+        "jawaban_b": "Sarah tidak sehat.",
+        "jawaban_c": "Semua orang sehat.",
+        "jawaban_d": "Sarah adalah atlet terbaik.",
+        "kunci": "a"
+    },
+    {
+        "pertanyaan": "Jika setiap mobil di jalan adalah biru, dan mobil John adalah biru, maka kesimpulan yang benar adalah:",
+        "kategori": "Logika",
+        "jawaban_a": "Semua mobil di jalan adalah mobil John.",
+        "jawaban_b": "Semua mobil di jalan adalah biru.",
+        "jawaban_c": "Mobil John adalah satu-satunya mobil di jalan.",
+        "jawaban_d": "Mobil John adalah mobil yang paling biru di jalan.",
+        "kunci": "b"
+    },
+    {
+        "pertanyaan": "Jika semua burung memiliki sayap, dan penguin adalah burung, maka kesimpulan yang benar adalah:",
+        "kategori": "Logika",
+        "jawaban_a": "Penguin tidak memiliki sayap.",
+        "jawaban_b": "Penguin adalah satwa air.",
+        "jawaban_c": "Semua burung dapat terbang.",
+        "jawaban_d": "Semua burung memiliki sayap.",
+        "kunci": "d"
+    }
+]

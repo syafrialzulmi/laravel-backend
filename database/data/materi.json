@@ -1,0 +1,17 @@
+[
+    {
+        "title" : "Tes Angka",
+        "content" : "Ujian angka, juga dikenal sebagai tes numerik atau ujian kuantitatif, adalah jenis tes atau evaluasi yang dirancang untuk mengukur kemampuan seseorang dalam memahami dan menggunakan konsep matematika serta kemampuan berpikir kuantitatif. Ujian ini dapat digunakan dalam berbagai konteks, termasuk dalam pendidikan, seleksi kerja, atau tes kualifikasi untuk program akademik atau profesi tertentu.",
+        "image" : "https://i.ibb.co/ZKL2CQZ/3.png"
+    },
+    {
+        "title" : "Tes Logika",
+        "content" : "Ujian logika adalah jenis tes atau evaluasi yang dirancang untuk mengukur kemampuan seseorang dalam berpikir secara logis, menganalisis informasi, menarik kesimpulan, dan menyelesaikan masalah. Ujian ini sering digunakan dalam berbagai konteks, termasuk dalam pendidikan, seleksi kerja, atau tes kualifikasi untuk program akademik atau profesi tertentu.",
+        "image" : "https://i.ibb.co/tcdSYbX/4.png"
+    },
+    {
+        "title" : "Tes Verbal",
+        "content" : "Ujian verbal adalah jenis ujian atau evaluasi yang secara khusus mengukur kemampuan seseorang dalam berkomunikasi secara lisan dan tertulis. Ujian ini sering digunakan dalam berbagai konteks, termasuk pendidikan, rekrutmen kerja, dan tes kualifikasi untuk program akademik atau profesi tertentu.",
+        "image" : "https://i.ibb.co/x58GWcv/5.png"
+    }
+]
