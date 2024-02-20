@@ -30,5 +30,21 @@ class UserSeeder extends Seeder
             'roles' => 'STAFF',
             'phone' => '081234567890',
         ]);
+
+        \App\Models\User::create([
+            'name' => 'Githanaira',
+            'email' => 'githa@syz.my.id',
+            'password' => Hash::make('password'),
+            'roles' => 'USER',
+            'phone' => '081234567890',
+        ]);
+
+        \App\Models\User::create([
+            'name' => 'Badranaya',
+            'email' => 'badra@syz.my.id',
+            'password' => Hash::make('password'),
+            'roles' => 'USER',
+            'phone' => '081234567890',
+        ]);
     }
 }
