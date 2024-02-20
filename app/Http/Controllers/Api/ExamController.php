@@ -175,7 +175,7 @@ class ExamController extends Controller
         $kategori_field = 'nilai_verbal';
         $status_field = 'status_verbal';
         $timer_field = 'timer_verbal';
-        if ($kategori == "Numeric") {
+        if ($kategori == "Angka") {
             $kategori_field = 'nilai_angka';
             $status_field = 'status_angka';
             $timer_field = 'timer_angka';

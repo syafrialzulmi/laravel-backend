@@ -44,10 +44,10 @@
                                             <label class="selectgroup-item">
                                                 <input type="radio"
                                                     name="kategori"
-                                                    value="Numeric"
+                                                    value="Angka"
                                                     class="selectgroup-input"
-                                                    @if ($question->kategori == 'Numeric') checked @endif>
-                                                <span class="selectgroup-button">Numeric</span>
+                                                    @if ($question->kategori == 'Angka') checked @endif>
+                                                <span class="selectgroup-button">Angka</span>
                                             </label>
                                             <label class="selectgroup-item">
                                                 <input type="radio"

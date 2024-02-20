@@ -43,10 +43,10 @@
                                             <label class="selectgroup-item">
                                                 <input type="radio"
                                                     name="kategori"
-                                                    value="Numeric"
+                                                    value="Angka"
                                                     class="selectgroup-input"
                                                     checked="">
-                                                <span class="selectgroup-button">Numeric</span>
+                                                <span class="selectgroup-button">Angka</span>
                                             </label>
                                             <label class="selectgroup-item">
                                                 <input type="radio"
