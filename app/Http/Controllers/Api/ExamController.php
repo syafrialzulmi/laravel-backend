@@ -57,7 +57,7 @@ class ExamController extends Controller
     public function createUjian(Request $request)
     {
         $soalLogika = Question::where('kategori', 'Logika')->inRandomOrder()->limit(20)->get();
-        $soalNumeric = Question::where('kategori', 'Numeric')->inRandomOrder()->limit(20)->get();
+        $soalNumeric = Question::where('kategori', 'Angka')->inRandomOrder()->limit(20)->get();
         $soalVerbal = Question::where('kategori', 'Verbal')->inRandomOrder()->limit(20)->get();
 
         $ujian = Exam::create([
@@ -98,7 +98,7 @@ class ExamController extends Controller
             return response()->json([
                 'message' => 'Ujian tidak ditemukan',
                 'data' => [],
-            ], 200); 
+            ], 200);
         }
         $ujianSoalList = ExamQuestionsList::where('exam_id', $ujian->id)->get();
         $soalIds = $ujianSoalList->pluck('question_id');
@@ -159,9 +159,9 @@ class ExamController extends Controller
             return response()->json([
                 'message' => 'Ujian tidak ditemukan',
                 'data' => [],
-            ], 200); 
+            ], 200);
         }
-                
+
         $ujianSoalList = ExamQuestionsList::where('exam_id', $ujian->id)->get();
         $ujianSoalList = $ujianSoalList->filter(function($value, $key) use ($kategori) {
             return $value->question->kategori == $kategori;
@@ -195,6 +195,6 @@ class ExamController extends Controller
             'message' => 'Berhasil mendapatkan nilai',
             'nilai' => $nilai,
         ], 200);
-    
+
     }
 }
