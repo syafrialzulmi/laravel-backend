@@ -62,6 +62,9 @@ class ExamController extends Controller
 
         $ujian = Exam::create([
             'user_id' => $request->user()->id,
+            'timer_angka' => 30,
+            'timer_verbal' => 30,
+            'timer_logika' => 30,
         ]);
 
         foreach ($soalLogika as $soal) {
