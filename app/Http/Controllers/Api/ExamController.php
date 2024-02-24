@@ -173,6 +173,8 @@ class ExamController extends Controller
         $totalBenar = $ujianSoalList->where('kebenaran', true)->count();
         $totalSoal = $ujianSoalList->count();
         $nilai = ($totalBenar / $totalSoal) * 100;
+        $benar = $totalBenar;
+        $salah = $totalSoal - $totalBenar;
 
 
         $kategori_field = 'nilai_verbal';
@@ -197,6 +199,8 @@ class ExamController extends Controller
         return response()->json([
             'message' => 'Berhasil mendapatkan nilai',
             'nilai' => $nilai,
+            'benar' => $benar,
+            'salah' => $salah,
         ], 200);
 
     }
